@@ -9,10 +9,10 @@ import { getAuth } from "firebase/auth";
 const firebaseConfig = {
   apiKey: ${{ secrets.API_KEY }},
   authDomain: ${{ secrets.AUTH_DOMAIN }},
-  projectId: "finanace-tracker-b6f5b",
-  storageBucket: "finanace-tracker-b6f5b.appspot.com",
-  messagingSenderId: "764774015917",
-  appId: "1:764774015917:web:f4bf976fb22d858816b724"
+  projectId: ${{ secrets.PROJECT_ID }},
+  storageBucket: ${{ secrets.STORAGE_BUCKET }},
+  messagingSenderId: ${{ secrets.MESSAGE_SENDER_ID }},
+  appId: ${{ secrets.APP_ID }}
 };
 
 // Initialize Firebase

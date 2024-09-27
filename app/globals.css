@@ -2,26 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-violet-800 relative bg-slate-100;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  button {
+    @apply hover:scale-110 transition-all duration-100;
+  }
+
+  input {
+    @apply px-4 py-2 bg-slate-100 rounded-xl;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .btn {
+    @apply self-start px-4 py-2 text-sm capitalize rounded-xl;
+  }
+  .btn-danger {
+    @apply text-white bg-red-500 border-red-600;
+  }
+  .btn-primary {
+    @apply border bg-violet-800 border-violet-800 text-slate-100;
+  }
+  .btn-primary-outline {
+    @apply border border-violet-800 text-violet-800;
+  }
+  .input-group {
+    @apply flex flex-col gap-4;
+  }
+  .sign-in-page {
+    @apply bg-gradient-to-r from-violet-300 to-purple-600 text-slate-100;
   }
 }

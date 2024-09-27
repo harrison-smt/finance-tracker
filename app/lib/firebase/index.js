@@ -7,7 +7,7 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCb1MDXXdaQuqFYQBXufrjAlA8WF_T9LRI",
+  apiKey: ${{ secrets.API_KEY }},
   authDomain: "finanace-tracker-b6f5b.firebaseapp.com",
   projectId: "finanace-tracker-b6f5b",
   storageBucket: "finanace-tracker-b6f5b.appspot.com",

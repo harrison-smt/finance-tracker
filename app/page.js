@@ -66,7 +66,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
     
     <main className="container max-w-2xl px-6 mx-auto">
       <section className="py-3">
-        <small className="text-violet-800 text-md">My Balance</small>
+        <small className="text-violet-500 text-md">My Balance</small>
         <h2 className="text-4xl font-bold">{currencyFormat(balance)}</h2>
       </section>
 

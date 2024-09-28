@@ -18,7 +18,7 @@ function ExpenseCategoryItem({ expense }) {
             setViewExpenseModal(true);
           }}
         >
-          <div className="flex items-center justify-between px-4 py-4 bg-violet-800 text-slate-100 rounded-3xl">
+          <div className="flex items-center justify-between px-4 py-4 bg-violet-500 text-slate-100 rounded-3xl">
             <div className="flex items-center gap-2">
               <div className="w-[25px] h-[25px] rounded-full" style={{backgroundColor: expense.color}} />
               <h4 className="capitalize">{expense.title}</h4>

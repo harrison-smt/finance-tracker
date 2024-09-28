@@ -129,7 +129,7 @@ function AddExpensesModal({show, onClose}) {
                             style={{
                                 boxShadow: expense.id === selectedCategory ? "4px 4px 6px black" : "none"
                             }}
-                            className="flex items-center justify-between px-4 py-4 bg-slate-100 text-violet-800 rounded-3xl">
+                            className="flex items-center justify-between px-4 py-4 bg-slate-100 text-violet-500 rounded-3xl">
                                 <div className="flex items-center gap-2">
                                     {/* Colored Circle */}
                                     <div 

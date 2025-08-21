@@ -1,4 +1,4 @@
-## 💸 SaveSmart Personal Finance Tracker
+## 💸 Finance Tracker
 A **full-stack personal finance tracker web app** that allows users to manage and visualize their money in real time. Users can **track income and expenses, set budget goals, and view interactive charts** that update instantly and persist across sessions.
 
 ---

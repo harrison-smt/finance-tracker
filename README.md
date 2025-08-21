@@ -45,7 +45,7 @@ Use .env.local for config and add .env* to .gitignore.
 ## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/your-username/budget-buddy.git
+git clone https://github.com/your-username/finance-tracker.git
 cd budget-buddy
 npm install
 npm run dev
